@@ -3,7 +3,7 @@ body {
     background-color: whitesmoke;
     color: #777777;
     font-size: 14px;
-    line-height: 1.5;
+    line-height: 2;
 }
 /* Add another div of desired width, that way it will always be the right size */
 #topBar {
@@ -26,7 +26,8 @@ body {
 #myName {
     color: #ffffff;
     background-color: #4aaaa5;
-    font-size: 1.5em;
+    font-size: 2em;
+    font-weight:bolder;
     font-family: 'Georgia', 'Times New Roman', Times, serif;
     width: 320px;
     height: 78px;
@@ -35,36 +36,29 @@ body {
     text-align: center;
 }
 
-#barHeader {
-    margin: 0;
-    clear: both;
-    
-}
 /* These could be a class instead of ids I believe */
 #about {
-    Float: right;
     position: absolute;
     right: 350px;
-    font-size: 1em;
+    font-size: 1.25em;
     Width: 80px;
+    bottom: 21.8px;
 }
 
 #portfolio {
-    float: right;
-    font-size: 1em;
+    font-size: 1.25em;
     Width: 80px;
     position: absolute;
     right: 200px;
-    bottom: 30px;
+    bottom: 21.8px;
 }
 
 #contact {
-    float:right;
     Width: 80px;
-    font-size: 1em;
+    font-size: 1.25em;
     position: absolute;
     right: 50px;
-    bottom: 30px;
+    bottom: 21.8px;
 }
 
 #main {
@@ -79,7 +73,8 @@ body {
 
 #mainHeader {
     color: #4aaaa5;
-    font-size: 1.5em;
+    font-size: 2em;
+    font-weight:bolder;
     font-family: "Georgia",'Times New Roman', Times, serif;
     width: 900px;
     margin-left: 28px;
@@ -107,6 +102,8 @@ footer {
     position: fixed;
     left: 0;
     bottom: 0;
+    text-align: center;
+    color: #7f7f7f
 }
 /* Contact Ids */
 #contactBox {
