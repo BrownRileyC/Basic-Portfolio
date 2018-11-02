@@ -1,7 +1,6 @@
 /* Index and cross file Ids */
 body {
     background-color: whitesmoke;
-    position: relative;
     color: #777777;
     font-size: 14px;
     line-height: 1.5;
@@ -21,6 +20,7 @@ body {
 #barOptions {
     Width: 960px;
     margin: 0 auto;
+    position:relative;
 }
 
 #myName {
@@ -31,25 +31,40 @@ body {
     width: 320px;
     height: 78px;
     padding: auto;
+    line-height: 78px;
     text-align: center;
 }
 
 #barHeader {
     margin: 0;
+    clear: both;
+    
 }
 /* These could be a class instead of ids I believe */
 #about {
     Float: right;
+    position: absolute;
+    right: 350px;
     font-size: 1em;
+    Width: 80px;
 }
 
 #portfolio {
     float: right;
     font-size: 1em;
+    Width: 80px;
+    position: absolute;
+    right: 200px;
+    bottom: 30px;
 }
 
 #contact {
     float:right;
+    Width: 80px;
+    font-size: 1em;
+    position: absolute;
+    right: 50px;
+    bottom: 30px;
 }
 
 #main {
@@ -82,7 +97,17 @@ body {
     margin-left: 28px;
     margin-right: 28px;
 }
-
+footer {
+    background-color: #666666;
+    border-top-color: #4aaaa5;
+    border-top-style: solid;
+    border-top-width: 5px;
+    height: 45px;
+    width: 100%;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+}
 /* Contact Ids */
 #contactBox {
 
