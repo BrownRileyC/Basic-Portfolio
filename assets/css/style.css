@@ -86,6 +86,15 @@ body {
 #bioImage {
     float: left;
     margin: auto 15px 15px 28px;
+    height: 210px;
+    width: 262px;
+    
+}
+
+#myImage {
+    height: 210px;
+    width: 262px;
+    transform: rotate(180deg)  
 }
 
 #bioText {
@@ -183,9 +192,10 @@ h2 {
     position: relative;
     
 }
-img {
-    height: 210px;
-    width: 275px;
+
+.projectImages {
+        height: 210px;
+        width: 275px;
 }
 
 .projectTitle {
@@ -198,4 +208,9 @@ img {
     line-height: 60px;
     position: absolute;
     bottom:20px;
+}
+
+a:visited, a:link, a:hover, a:focus {
+    text-decoration: none;
+    color: #777777
 }
